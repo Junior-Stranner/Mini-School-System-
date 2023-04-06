@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Principal {
 
 	public static void main(String[] args) {
-		Aluno a = new Aluno();
+		AlunoJR a = new AlunoJR();
 
 		informacoes(a);
 
@@ -13,7 +13,7 @@ public class Principal {
 
 	}
 
-	private static void ConselhoClass(Aluno a) {
+	private static void ConselhoClass(AlunoJR a) {
 		Scanner in = new Scanner(System.in);
 		int op;
 		do {
@@ -87,7 +87,7 @@ public class Principal {
 		}
 	}
 		
-	private static void informacoes(Aluno a) {
+	private static void informacoes(AlunoJR a) {
 		Scanner in = new Scanner(System.in);
 
 		System.out.println(" Matricula =");
